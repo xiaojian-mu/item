@@ -1,11 +1,19 @@
 <template>
   <div class="box">
     <ul>
+<<<<<<< HEAD
       <li @click="fn1">
         <img
           src="https://image.hongbeibang.com/FhngZoiK_s7Zw4K3DxLogRfqoO06?50X50&imageView2/1/w/50/h/50"
         />
         <h6>学烘焙</h6>
+=======
+      <li>
+        <img
+          src="https://image.hongbeibang.com/FsxN7RUFRJ9Zdris5Z22haR2xIhj?50X50&imageView2/1/w/50/h/50"
+        />
+        <h6 style>学烘焙</h6>
+>>>>>>> 0fa86843da0e11015a28273acff6747c86fc0162
       </li>
       <li>
         <img
@@ -13,13 +21,21 @@
         />
         <h6>烘焙圈</h6>
       </li>
+<<<<<<< HEAD
       <li @click="fn3">
+=======
+      <li>
+>>>>>>> 0fa86843da0e11015a28273acff6747c86fc0162
         <img
           src="https://image.hongbeibang.com/Flm_lYHJQA56h0VyhdRhQ1i5iO06?50X50&imageView2/1/w/50/h/50"
         />
         <h6>问答</h6>
       </li>
+<<<<<<< HEAD
       <li @click="fn4">
+=======
+      <li>
+>>>>>>> 0fa86843da0e11015a28273acff6747c86fc0162
         <img
           src="https://image.hongbeibang.com/FrYeKj0MohOJQuNzUgCugg90cHCS?50X50&imageView2/1/w/50/h/50"
         />
@@ -32,6 +48,7 @@
 <script>
 export default {
   name: "IndexFooter",
+<<<<<<< HEAD
   methods: {
     fn1() {
       this.$router.push("/");
@@ -43,6 +60,8 @@ export default {
       this.$router.push("/Bathmos");
     },
   },
+=======
+>>>>>>> 0fa86843da0e11015a28273acff6747c86fc0162
 };
 </script>
 

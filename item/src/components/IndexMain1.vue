@@ -8,7 +8,11 @@
           class="swiper-slide"
           v-for="(banner, index) in url.slice(0,10)"
           :key="index"
+<<<<<<< HEAD
           @click="goods(banner.mid)"
+=======
+          @click="goods(banner.id)"
+>>>>>>> 0fa86843da0e11015a28273acff6747c86fc0162
         >
           <!-- 跳转路由 -->
           <div class="student">

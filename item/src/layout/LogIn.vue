@@ -28,7 +28,11 @@
           src="https://image.hongbeibang.com/FhVd-FHn1W_yhi5vMjtsAQGSicId?50X50&imageView2/1/w/50/h/50"
         />
       </div>
+<<<<<<< HEAD
       <input class="lg" type="password" id="pwd" placeholder="输入密码" v-model="userpass" />
+=======
+      <input type="password" id="pwd" placeholder="输入密码" v-model="userpass" />
+>>>>>>> 0fa86843da0e11015a28273acff6747c86fc0162
     </div>
     <!-- 忘记密码 -->
     <div class="forgetpwd">忘记密码</div>
@@ -176,7 +180,10 @@ export default {
   font-size: 18px;
   color: #807e7a;
 }
+<<<<<<< HEAD
 
+=======
+>>>>>>> 0fa86843da0e11015a28273acff6747c86fc0162
 .password {
   display: flex;
   width: 100%;

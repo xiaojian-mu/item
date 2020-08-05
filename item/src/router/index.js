@@ -15,6 +15,7 @@ import LogIn from "@/layout/LogIn"; //登录
 import Vx from "@/layout/Vx"; //微信页面
 import Search from "@/layout/Search"; //搜索
 import Registered from "@/layout/Registered"; //注册
+<<<<<<< HEAD
 //
 
 import zhifu from "../layout/zhifu";
@@ -24,6 +25,9 @@ import Bathmos from "../layout/Bathmos";
 import Setting from "../layout/Setting";
 //
 import NotFound from "@/layout/NotFound"; //
+=======
+import NotFound from "@/layout/NotFound";
+>>>>>>> 0fa86843da0e11015a28273acff6747c86fc0162
 
 export default new Router({
   mode: "history", //去除#号
@@ -100,6 +104,7 @@ export default new Router({
       path: "/NotFound",
       name: "NotFound",
       component: NotFound
+<<<<<<< HEAD
     },
     {
       path: "/zhifu",
@@ -137,6 +142,8 @@ export default new Router({
           next("/NoLogIn");
         }
       }
+=======
+>>>>>>> 0fa86843da0e11015a28273acff6747c86fc0162
     }
   ]
 });

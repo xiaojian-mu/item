@@ -1,4 +1,5 @@
 <template>
+<<<<<<< HEAD
   <!-- 详情的介绍 -->
   <div class="box">
     <div id="top">
@@ -238,11 +239,23 @@ export default {
     f4() {
       this.$router.push("/Bathmos");
     },
+=======
+  <div>传来的name：{{$route.query.id}}</div>
+</template>
+
+<script>
+import axios from "axios"; //引入axios
+export default {
+  name: "Detail",
+  created() {
+    console.log(this.$route.query.id);
+>>>>>>> 0fa86843da0e11015a28273acff6747c86fc0162
   },
 };
 </script>
 
 <style scoped>
+<<<<<<< HEAD
 router-link {
   color: #000000;
 }
@@ -557,5 +570,11 @@ router-link {
   height: 600px;
   background: cyan;
   margin-top: 30px;
+=======
+div {
+  width: 100%;
+  height: 100px;
+  background-color: green;
+>>>>>>> 0fa86843da0e11015a28273acff6747c86fc0162
 }
 </style>

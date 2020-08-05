@@ -60,6 +60,10 @@ export default {
       url: "http://39.107.58.130:8080/api/index/",
       // url: "http://10.35.162.134:8000/api/index/",
     }).then((res) => {
+<<<<<<< HEAD
+=======
+      console.log(res.data.data[0]["推荐课程"][0]["zf_list"]);
+>>>>>>> 0fa86843da0e11015a28273acff6747c86fc0162
       this.data = res.data.data;
       this.data0 = res.data.data[0]["推荐课程"][0]["zf_list"];
       this.data1 = res.data.data[1]["备战中秋"][0]["zf_list"];
